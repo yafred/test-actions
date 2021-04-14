@@ -35,5 +35,5 @@ jobs:
         echo "yarn"
         yarn -v
         echo "gulp"
-        gulp
+        npm install gulp
 
