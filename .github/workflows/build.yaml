@@ -25,6 +25,10 @@ jobs:
         node-version: '14'
       id: node
 
+    - name: Set up gulp
+      run: |
+        npm install gulp
+
     - name: Build
       run: |
         echo "Building ..."
@@ -37,5 +41,5 @@ jobs:
         echo "yarn"
         yarn -v
         echo "gulp"
-        npm install gulp
+        gulp -v
 
