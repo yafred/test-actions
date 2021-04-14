@@ -28,6 +28,12 @@ jobs:
     - name: Build
       run: |
         echo "Building ..."
+        echo "go"
         go version
+        echo "node"
         node --version
+        echo "yarn"
+        yarn -v
+        echo "gulp"
+        gulp
 
