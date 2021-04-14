@@ -32,6 +32,8 @@ jobs:
         go version
         echo "node"
         node --version
+        echo "npm"
+        npm -v
         echo "yarn"
         yarn -v
         echo "gulp"
